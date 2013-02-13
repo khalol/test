@@ -1,0 +1,19 @@
+Liste des packets system fugé upgradable via apt-get dist-upgrade
+Voir les upgrade de l'utilisateur. apt-get upgrade
+
+Fonction bash sur les sources:(3.1 intro)
+check chaque archive indépendament leur chechsum et voir ce qui va pas
+
+
+if [ -f /file ]
+then
+	#md5check
+	if [ ! $? -eq 0 ]
+	then
+		#dwld
+	fi
+else
+	#dwld
+	
+	
+fi
